@@ -1,0 +1,19 @@
+.app { min-height: 100vh; display: flex; flex-direction: column; }
+.header { background: #172554; color: white; text-align: center; padding: 24px 16px; }
+.header h1 { margin: 0; font-size: 30px; }
+.header p { margin: 8px 0 0; color: #dbeafe; }
+.nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; background: #111827; padding: 15px; }
+.nav a { color: white; text-decoration: none; font-weight: 600; }
+.nav a:hover { color: #93c5fd; }
+.layout { display: flex; flex: 1; min-height: 420px; }
+.sidebar { width: 240px; flex-shrink: 0; background: #e5e7eb; padding: 24px; color: #1f2937; }
+.sidebar h3 { margin-top: 0; }
+.main { flex: 1; padding: 36px; }
+.page { max-width: 760px; }
+.page h2 { color: #172554; font-size: 28px; }
+.page p { line-height: 1.7; color: #4b5563; }
+.eyebrow { color: #2563eb !important; font-size: 12px; font-weight: 800; letter-spacing: 2px; }
+.products { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 24px; }
+.products article { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 24px; min-width: 130px; color: #1e3a8a; font-weight: 600; }
+.footer { background: #172554; color: white; text-align: center; padding: 18px; }
+@media (max-width: 650px) { .layout { flex-direction: column; } .sidebar { width: auto; } .main { padding: 24px; } }
